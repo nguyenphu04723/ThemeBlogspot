@@ -1,0 +1,3669 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.1.1' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+
+  
+    <meta charset='UTF-8'/>
+    <title>AdTech</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'/>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
+    <meta content='AdTech- Giải pháp công nghệ cho bạn.' name='description'/>
+    <link href='images/favicon.ico' rel='shortcut icon'/>
+    <meta content='Mạng quảng cáo gia tăng người dùng và thúc đẩy hiệu suất kinh doanh chuyên biệt' property='og:title'/>
+    <meta content='AdTech- Giải pháp công nghệ cho bạn.' property='og:description'/>
+
+    <meta content='article' property='og:type'/>
+
+    <meta content='AdTech- Giải pháp công nghệ cho bạn' property='og:site_name'/>
+ 
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet'/>
+    <link href='https://cdn.jsdelivr.net/animatecss/3.4.0/animate.min.css' rel='stylesheet'/>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet'/>
+    <!-- <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+ 
+    <!-- <link rel='prefetch' href='/publisher.html'> -->
+    <!-- <link rel='prefetch' href='/advertiser.html'> -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+ <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title>AdTech</title>
+    <b:include data='blog' name='all-head-content'/>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'/>
+  <b:skin><![CDATA[  
+]]></b:skin>
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+
+
+    <b:include cond='not data:view.isPreview' data='{                         image: data:skin.vars.body_background.image,                         selector: &quot;.bg-photo&quot;,                         imageSizes: [480, 640, 800, 1200, 1600]                      }' name='responsiveImageStyle'/>
+
+    <style type='text/css'>
+      .bgiabn tr th {background: #eaeaea; font-size: 17px!important; padding: 5px; text-align: center; }
+      .bgiabn tr td {font-size: 15px; text-align: center; padding: 5px; font-family: Roboto; width: 20%}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: &#39;Roboto&#39;, sans-serif;
+  color: #666666;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  font-family: &#39;Roboto&#39;, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+div.content {
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #111;
+  font-family: &#39;Roboto&#39;, sans-serif;
+  font-weight: 300;
+}
+header .navbar-default {
+  background: none;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default ul.navbar-nav {
+  padding-top: 12px;
+  /*width: 106%;*/
+}
+header .navbar-default ul.navbar-nav li {
+    margin-left: 1px;
+}
+header .navbar-default ul.navbar-nav li a {
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 6px 20px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default ul.navbar-nav li a.btn-started,
+header .navbar-default ul.navbar-nav li a.btn-lag {
+  padding: 6px 10px;
+}
+header .navbar-default ul.navbar-nav li a:hover {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+header .navbar-default ul.navbar-nav li a.getApp {
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default ul.navbar-nav li a.getApp:after {
+  display: none;
+}
+header .navbar-default .navbar-brand {
+  height: auto;
+  padding: 0;
+}
+header .navbar-default .navbar-brand img{
+display: inline-block;
+    height: 50px;
+float: left; 
+border-radius: 7px;
+}
+@media (max-width: 480px) {
+    header .navbar-default .navbar-brand img{
+        height: 32px;
+    }
+}
+header .navbar-default.scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default.scrolled .navbar-brand {
+  padding: 12px 12px;
+}
+header .navbar-default.scrolled .navbar-brand img {
+  width: auto;
+  max-height: 33px;
+}
+header .navbar-default.scrolled ul.navbar-nav {
+  padding-top: 12px;
+}
+.scrollpoint {
+  opacity: 0;
+}
+.scrollpoint.active {
+  opacity: 1 \0;
+}
+.hanging-phone {
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  bottom: -70px;
+}
+.section-heading {
+  margin: 60px 0 80px;
+  text-align: center;
+    padding: 0 120px;
+}
+.section-heading1 {
+  margin: 4px 0 0px;
+  text-align: center;
+  padding: 0 30px;
+}
+.section-heading1 h1 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 100;
+}
+.section-heading1 p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 17px;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 30px;
+}
+.section-heading h1 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 100;
+}
+.section-heading p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 17px;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 30px;
+}
+.section-heading .divider:after {
+  content: &quot;&quot;;
+  position: relative;
+  height: 4px;
+  width: 60px;
+  display: block;
+  text-align: center;
+  margin: 13px auto;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+}
+.section-heading.inverse h1,
+.section-heading.inverse p {
+  color: #ffffff;
+}
+.section-heading.inverse .divider:after {
+  background: #ffffff;
+}
+@media (max-width: 480px) {
+    .section-heading {
+        margin: 20px 0;
+        /*margin-left: 20px;*/
+        padding: 0;
+    }
+    .section-heading h1 {
+        font-size: 32px;
+    }
+    .section-heading p {
+        font-size: 17px;
+    }
+}
+section#about {
+  position: relative;
+    padding-top: 50px;
+    background-color: #C00607;
+    color: #fff;
+}
+section#about .about-item {
+  text-align: center;
+  font-size: 17px;
+  line-height: 25px;
+  color: #999999;
+}
+section#about .about-item img {
+    width: 100%;
+    max-width: 120px;
+    margin: 0 auto;
+}
+section#about .about-item i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 35px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 104px;
+}
+@media (max-width: 480px) {
+    section#about {
+        padding: 40px 0;
+    }
+    section#about .about-item img {
+        max-width: 100px;
+    }
+    section#about .about-item h3 {
+        margin: 0 0 10px 0;
+        font-size: 20px;
+    }
+    section#about .about-item p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+section#advertisers {
+    background: #f6f6f6;
+    border: 0 rgba(0,0,0,0.06) solid;
+    border-width: 1px 0;
+}
+section#advertisers .row {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+section#advertisers .col-sm-4,
+section#advertisers .col-sm-6 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+section#advertisers img {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+section#advertisers .col-left {
+    text-align: center;
+}
+section#advertisers .col-right {
+    text-align: center;
+}
+@media (max-width: 480px) {
+    section#advertisers {
+        padding: 0 0 40px 0;
+    }
+    section#advertisers h2 {
+        font-size: 24px;
+    }
+}
+
+section#report {
+    /*background: #f6f6f6;
+    border: 0 rgba(0,0,0,0.06) solid;
+    border-width: 1px 0;*/
+    /*padding-bottom: -140px;*/
+}
+section#report .row {
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -78px;
+}
+section#report .col-sm-4,
+section#report .col-sm-6 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+section#report img {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+section#report .col-left {
+    text-align: center;
+}
+section#report .col-right {
+    text-align: center;
+}
+@media (max-width: 480px) {
+    section#report {
+        /*padding: 0 0 -56px 0;*/
+    }
+    section#report h2 {
+        font-size: 24px;
+    }
+}
+
+section#publishers {
+    background: #f6f6f6;
+    border: 0 rgba(0,0,0,0.06) solid;
+    border-width: 1px 0;
+}
+section#publishers .row {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+section#publishers .col-sm-4,
+section#publishers .col-sm-6 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+section#publishers img {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+section#publishers .col-left {
+    text-align: center;
+}
+section#publishers .col-right {
+    text-align: center;
+}
+@media (max-width: 480px) {
+    section#publishers {
+        padding: 0 0 40px 0;
+    }
+    section#publishers h2 {
+        font-size: 24px;
+    }
+}
+
+section#aff-publishers .media &gt; .pull-right {
+  margin-left: 20px;
+}
+section#aff-publishers .media i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 20px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 2.6em;
+  text-align: center;
+}
+section#aff-publishers .media .media-heading {
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: 16px;
+}
+section#aff-publishers .media .media-body {
+  color: #999999;
+}
+section#aff-publishers .media.media-left .media-body {
+  text-align: right;
+}
+
+section#aff-publishers .media.feature {
+  margin-bottom: 25px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+    min-height: 72px;
+    padding-left: 82px;
+    position: relative;
+}
+section#aff-publishers .media.feature .pull-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+section#aff-publishers .media.feature .pull-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+section#aff-publishers .media.media-left {
+    padding-left: 0px;
+    padding-right: 82px;
+}
+section#aff-publishers .sp-effect1 .media.feature {
+  justify-content: flex-end;
+}
+section#aff-publishers .media.feature:first-child {
+  margin-top: 0;
+}
+section#aff-publishers img {
+  margin: 0 auto 20px;
+}
+section#aff-publishers .list-publishers {
+    background: url(&quot;../images/publishers-group.png&quot;) no-repeat center ;
+    -webkit-background-size: 40% auto; /* Safari 3-4 */
+    background-size: 40% auto;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+    section#aff-publishers .list-publishers {
+        background: url(&quot;../images/publishers-group.png&quot;) no-repeat center ;
+        -webkit-background-size: 40% auto; /* Safari 3-4 */
+        background-size: 40% auto;
+        padding-top: 30px;
+    }
+}
+@media (max-width: 767px) {
+    section#aff-publishers .list-publishers {background-image: none!important;}
+
+    section#aff-publishers .media.feature {
+        display: block;
+    }
+    section#aff-publishers .sp-effect1 .media.feature {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: flex-start;
+    }
+    section#aff-publishers .media &gt; .pull-right {
+        margin:0 10px 0 0;
+        float: left!important;
+    }
+    section#aff-publishers .media.media-left .media-body {
+        text-align: left;
+        display: inline-block;
+    }
+    section#aff-publishers .media.feature {padding-right: 0;}
+    section#aff-publishers .media.feature .pull-left {
+        left: 0;
+    }
+    section#aff-publishers .media.feature .pull-right {
+        left: 0;
+    }
+    section#aff-publishers .media.media-left {
+        padding-left: 82px;
+    }
+}
+@media (max-width: 480px) {
+    section#aff-publishers .media.feature {
+        position: relative;
+        min-height: 60px;
+        padding-left: 60px;
+        margin-bottom: 10px;
+    }
+    section#aff-publishers .media.media-left .media-body {
+        text-align: left;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-align-items: center;
+        min-height: 50px;
+    }
+    section#aff-publishers .media.feature a {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+    }
+    section#aff-publishers .media .media-heading {
+        font-size: 20px;
+    }
+    section#aff-publishers .media i.fa {
+        width: 50px;
+        padding: 9px;
+
+    }
+}
+section#reviews {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section#reviews .review-filtering {
+  margin: 20px 0 100px 0;
+}
+section#reviews .review-filtering .review .review-person {
+  width: 100%;
+}
+section#reviews .review-filtering .review .review-person img {
+  width: 110px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+section#reviews .review-filtering .review .review-comment {
+  width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px 40px 20px;
+  position: relative;
+}
+section#reviews .review-filtering .review .review-comment h3 {
+  margin-bottom: 15px;
+}
+section#reviews .review-filtering .review .review-comment p {
+  font-size: 16px;
+  color: #999999;
+}
+section#reviews .review-filtering .review .review-comment p span {
+  margin-left: 10px;
+}
+section#reviews .review-filtering .review .review-comment:after {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: &quot; &quot;;
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-width: 15px;
+  margin-top: -10px;
+}
+section#reviews .review-filtering .review .review-person,
+section#reviews .review-filtering .review .review-comment {
+  float: left;
+}
+section#reviews .review-filtering .slick-dots {
+  bottom: -80px;
+}
+section#reviews .review-filtering .slick-dots li button {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+section#reviews .review-filtering .slick-dots li button:before {
+  display: none;
+}
+section#screens .slider {
+  margin: 50px 0;
+}
+section#screens .slider div img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline;
+}
+section#screens .slider div h4 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+}
+section#screens .slider .slick-dots li button {
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+}
+section#screens .slick-prev,
+section#screens .slick-next {
+  width: 50px;
+  height: 50px;
+  top: 44%;
+}
+section#screens .slick-slide {
+  text-align: center;
+}
+section#screens .slick-prev:before {
+  content: &quot;\f104&quot;;
+}
+section#screens .slick-next:before {
+  content: &quot;\f105&quot;;
+}
+section#screens .slick-prev:before,
+section#screens .slick-next:before {
+  font-size: 34px;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+  line-height: 45px;
+  color: #CCC;
+  border: 2px solid #CCC;
+  width: 50px;
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+}
+section#screens .filter {
+  text-align: center;
+}
+section#screens .filter a {
+  display: inline-block;
+  padding: 7px 20px;
+  text-decoration: none;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+  margin: 10px 5px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+/* demo video Section */
+section#demo .video-container {
+  padding: 20px;
+  border: 1px solid #b3b3b3;
+  min-height: 450px;
+  overflow: hidden;
+}
+section#demo iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/* Get app Section */
+section#getApp {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 70px 0;
+}
+section#getApp .platforms {
+  margin: 5px auto 120px auto;
+  text-align: center;
+}
+section#getApp .platforms .btn {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+/* contact section */
+section#contact {
+  padding: 0 0 40px 0;
+}
+section#contact .media {
+  margin-bottom: 10px;
+}
+section#contact .media i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 10px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 1.9em;
+  text-align: center;
+}
+section#contact .media .media-heading {
+  padding-top: 15px;
+  font-weight: 300;
+}
+section#contact .media .media-heading a {
+  font-weight: 400;
+}
+/* footer section */
+footer {
+  padding: 20px 0;
+}
+footer a &gt; img {
+  width: 100px;
+}
+footer .social {
+  display: block;
+    color: #b0c5d1;
+    font-size: 14px;
+    text-align: right;
+    float: left;
+}
+footer .copyright {
+    line-height: 44px;
+    color: #b0c5d1;
+    display: inline-block;
+    font-size: 14px;
+}
+
+footer .info-page {
+    float: right;
+}
+footer .social a {
+    margin: 0;
+    border-radius: 44px;
+    line-height: 40px;
+    display: block;
+    width: 32px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+  display: inline-block;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+footer .social a i {
+    font-size: 20px;
+    line-height: 40px;
+}
+footer .rights {
+  margin-top: 30px;
+}
+footer .rights a {
+  text-decoration: underline;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  font-weight: bold;
+}
+footer .rights a:hover {
+  text-decoration: none;
+}
+
+/*Lag*/
+footer .lag {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: relative;
+}
+footer .lag button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    padding: 6px 12px;
+    border-radius: 3px;
+    color: #fff;
+}
+footer .lag button:focus {
+    outline: 0;
+}
+footer .lag .dropdown-menu {
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+}
+footer .lag .dropdown-menu li.active a {
+    background-color: transparent;
+    color: #C00607;
+}
+footer .lag .dropdown-menu li.active a:hover {
+    background-color: transparent;
+}
+footer .lag .dropdown-menu li:hover {
+    background-color: transparent;
+}
+footer .lag .dropdown-menu li:hover a {
+    background-color: transparent;
+}
+footer .lag .dropdown-menu li:hover a:hover {
+    background-color: transparent;
+}
+
+@media (max-width: 600px) {
+    footer .copyright {
+        display: block;
+        text-align: center;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+    footer .copyright a {
+        display: block;
+    }
+    footer .info-page {
+        float: none;
+    }
+    footer .social {
+        text-align: center;
+        float: none;
+    }
+    footer .social span {
+        text-align: center;
+        padding: 5px 0 10px 0;
+    }
+    footer .lag {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+    footer .lag .dropdown-menu {
+        width: 100%;
+    }
+}
+section {
+  position: relative;
+  padding-bottom: 80px;
+  clear: both;
+}
+.section-header h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #111;
+}
+.section-header h2{
+    font-size: 26px;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.section-header .getstart {
+    margin-top: 30px;
+    clear: both;
+}
+.section-header .desc,
+.section-header p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0.6px;
+    margin-top: 17px;
+    margin: 20px 0;
+    font-weight: 300;
+    color: #333;
+}
+.section-header .btn {margin: 0 3px 5px 3px;}
+.section-header.inverse h1,
+.section-header.inverse h2,
+.section-header.inverse .desc,
+.section-header.inverse .desc p {
+    color: #fff;
+}
+@media (max-width: 480px) {
+    .icons {
+        width: 100px!important;
+        height: 100px!important;
+        margin-bottom: 0!important;
+    }
+    .section-header h2{
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .section-header .desc,
+    .section-header p {
+        font-size: 14px;
+        margin: 10px 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section-header .btn {
+        padding: 6px 16px!important;
+        font-size: 14px!important;
+        line-height: 18px!important;
+    }
+}
+.block-col {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.list-col {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.list-col .item-col {
+
+}
+.align-center {
+    text-align: center;
+}
+.align-left {
+    text-align: justify;
+}
+.align-right {
+    text-align: right;
+}
+/* Common style for pseudo-elements */
+section::before,
+section::after {
+  position: absolute;
+  content: &#39;&#39;;
+  pointer-events: none;
+  overflow: hidden;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.banner-container {
+    padding-top: 160px;
+}
+.banner-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.banner-container1 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+@media (max-width: 1024px) {
+    .banner-container1 {
+    padding-top: 0px;
+    padding-bottom: 75px;
+}
+}
+@media (min-width: 768px) {
+    .banner-container1 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+}
+@media (max-width: 1440px) {
+    .banner-container1 {
+    /*padding-top: 0px;*/
+}
+}
+.banner-container1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tp-caption {
+  font-family: &#39;Roboto&#39;, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
+.tp-caption.large_white_bold {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.tp-caption {
+  color: #ffffff;
+  /*padding: 0 120px 60px 120px;*/
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: normal;
+}
+.tp-caption {
+    padding: 0px 200px 100px 240px;
+    text-align: center;
+}
+.tp-caption h1 {
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 100;
+}
+.tp-caption p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0.6px;
+    margin-top: 17px;
+    font-weight: 300;
+
+}
+.tp-caption img {
+    display: block;
+    margin: 0 auto;
+}
+.tp-caption1 {
+  font-family: &#39;Roboto&#39;, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
+.tp-caption1.large_white_bold {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.tp-caption1 {
+  color: #ffffff;
+  /*padding: 0 120px 60px 120px;*/
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: normal;
+}
+.tp-caption1 {
+    padding: 0px 200px 100px 240px;
+    text-align: center;
+}
+.tp-caption1 h1 {
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 100;
+}
+.tp-caption1 p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0.6px;
+    margin-top: 17px;
+    font-weight: 300;
+
+}
+.tp-caption1 img {
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width: 576px) {
+    .tp-caption1 img {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+}
+.tp-caption2 {
+  font-family: &#39;Roboto&#39;, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
+.tp-caption2.large_white_bold {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.tp-caption2 {
+  color: #ffffff;
+  /*padding: 0 120px 60px 120px;*/
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: normal;
+}
+.tp-caption2 {
+    padding: 0px 200px 100px 240px;
+    text-align: center;
+}
+.tp-caption2 h1 {
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 100;
+}
+.tp-caption2 p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0.6px;
+    margin-top: 17px;
+    font-weight: 300;
+
+}
+.tp-caption2 img {
+    display: block;
+    margin: 0 auto;
+}
+.tp-pic img {
+    display: block;
+    margin: 0 auto;
+}
+.qualification {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.qualification img {
+    height: 100px;
+    margin-left: 5px;
+}
+@media (max-width: 1400px) {
+    .qualification img {
+        height: 90px;
+    }
+}
+@media (max-width: 1280px) {
+    .qualification img {
+        height: 70px;
+    }
+}
+@media (max-width: 1024px) {
+    .tp-caption {
+        padding: 0 120px 20px 120px;
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {
+    .tp-caption1 {
+        padding: 0 120px 20px 120px;
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {
+    .tp-caption2 {
+        padding: 0 120px 20px 120px;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .qualification {
+        display: none;
+    }
+    .banner-container {
+        padding-top: 100px;
+    }
+    .banner-container1 {
+        padding-top: 100px;
+    }
+    .tp-caption {
+        padding: 15px 10px;
+        /*margin-bottom: 20px;*/
+        text-align: center;
+    }
+    .tp-caption h1 {
+        color: #ffffff;
+        margin: 0 auto;
+        font-size: 30px;
+        font-weight: 300;
+        padding: 0 40px;
+    }
+    .tp-caption p {
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 20px 0;
+        font-weight: 300;
+
+    }
+    .tp-caption1 {
+        padding: 15px 10px;
+        /*margin-bottom: 20px;*/
+        text-align: center;
+    }
+    .tp-caption1 h1 {
+        color: #ffffff;
+        margin: 0 auto;
+        font-size: 30px;
+        font-weight: 300;
+        padding: 0 40px;
+    }
+    .tp-caption1 p {
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 20px 0;
+        font-weight: 300;
+
+    }
+    .tp-pic img {
+        width: 100%;
+        max-width: 100%!important;
+    }
+}
+@media (min-width: 768px) {
+    .tp-caption {
+        padding: 150px 10px;
+        /*margin-bottom: 20px;*/
+        text-align: center;
+    }
+}
+@media (min-width: 1366px) {
+    .tp-caption {
+        padding: 50px 10px 300px 10px;
+        /*margin-bottom: 20px;*/
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .tp-caption1 {
+        padding: 60px 10px;
+        text-align: center;
+    }
+}
+@media (min-width: 1024px) {
+    .tp-caption1 {
+        padding: 120px 10px;
+        text-align: center;
+    }
+}
+@media (min-width: 1366px) {
+    .tp-caption1 {
+        padding: 50px 10px 300px 10px;
+        /*margin-bottom: 20px;*/
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .qualification {
+        display: none;
+    }
+    .banner-container {
+        padding-top: 100px;
+    }
+    .banner-container1 {
+        padding-top: 100px;
+    }
+    .tp-caption2 {
+        padding: 36px 10px;
+        text-align: center;
+    }
+    .tp-caption2 h1 {
+        color: #ffffff;
+        margin: 0 auto;
+        font-size: 30px;
+        font-weight: 300;
+        padding: 0 40px;
+    }
+    .tp-caption2 p {
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 20px 0;
+        font-weight: 300;
+
+    }
+    .tp-pic img {
+        width: 100%;
+        max-width: 100%!important;
+    }
+}
+@media (max-width: 768px) {
+    .qualification {
+        display: none;
+    }
+    .banner-container {
+        padding-top: 100px;
+    }
+    .banner-container1 {
+        padding-top: 100px;
+    }
+    .tp-pic img {
+        width: 100%;
+        max-width: 100%!important;
+    }
+}
+@media (max-width: 480px) {
+    .tp-caption h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        width: 360px;
+        margin-left: -18px;
+    }
+    .tp-caption p {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    .tp-caption1 h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        width: 360px;
+        margin-left: -18px;
+    }
+    .tp-caption1 p {
+        /*display: none;*/
+    }
+}
+@media (max-width: 480px) {
+    .tp-caption2 h1 {
+        font-size: 24px;
+        /*margin-bottom: 20px;*/
+        width: 360px;
+        margin-top: -66px;
+    }
+    .tp-caption2 p {
+        display: none;
+    }
+}
+@media (max-width: 360px) {
+    .tp-caption2 h1 {
+        margin-left: -18px;
+    }
+}
+
+.btn {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 4px 24px;
+}
+.btn.btn-primary {
+  border: 2px solid #ffffff;
+  background: none;
+  color: #ffffff;
+}
+.btn.btn-primary:hover {
+  color: #ffffff;
+}
+.btn.btn-default {
+  border: none;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.btn.btn-lg {
+  padding: 8px 24px;
+}
+.btn:hover {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+form .form-control {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 40px;
+  padding: 20px;
+  color: #333;
+  border: 2px solid #cccccc;
+  font-weight: 300;
+}
+form textarea.form-control {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  height: auto;
+  line-height: normal;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 50px;
+    height: auto;
+  }
+  .slick-next {
+    right: 0;
+  }
+  .slick-prev {
+    left: 0;
+  }
+  .contact-details {
+    margin-top: 20px;
+  }
+  header .navbar-default {
+    padding: 20px;
+  }
+  header .navbar-default .navbar-toggle {
+    margin-top: 0px;
+    margin-right: 0px;
+    background: none;
+    border: 0px solid #ffffff;
+    color: #ffffff;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    border-radius: 5em;
+  }
+  header .navbar-default .navbar-toggle:hover,
+  header .navbar-default .navbar-toggle:focus {
+    background: none;
+  }
+  header .navbar-default ul.navbar-nav {
+    padding-top: 0;
+    margin: 0;
+  }
+  header .navbar-default ul.navbar-nav li a {
+    padding: 10px;
+    text-align: center;
+  }
+  header .navbar-default ul.navbar-nav li a.getApp {
+    background: none !important;
+    -webkit-border-radius: 0em;
+    -moz-border-radius: 0em;
+    -ms-border-radius: 0em;
+    -o-border-radius: 0em;
+    border-radius: 0em;
+  }
+  header .navbar-default .navbar-collapse {
+    border-color: transparent;
+  }
+  header .navbar-default.scrolled .navbar-collapse {
+    border-color: transparent;
+  }
+  header .navbar-default.scrolled ul.navbar-nav {
+    padding-top: 0;
+    margin: 0;
+  }
+  header .navbar-default.scrolled .navbar-toggle {
+    margin-top: 11px;
+    margin-right: 20px;
+    background: none;
+    border: 0px solid #ffffff;
+    color: #ffffff;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    border-radius: 5em;
+  }
+}
+.pre-loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  display: block;
+}
+.pre-loader .load-con {
+  margin: 20% auto;
+  position: relative;
+  text-align: center;
+}
+.spinner {
+  margin: 50px auto 0;
+  width: 70px;
+  text-align: center;
+}
+.spinner &gt; div {
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bouncedelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+header {
+  background: #C00607;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #C00607 0%, #C00607 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #C00607), color-stop(100%, #C00607));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #C00607 0%, #C00607 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #C00607 0%, #C00607 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #C00607 0%, #C00607 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #C00607 0%, #C00607 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#C00607, endColorstr=#C00607, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.navbar-default .navbar-nav &gt; .active &gt; a, .navbar-default .navbar-nav &gt; .active &gt; a:hover, .navbar-default .navbar-nav &gt; .active &gt; a:focus {
+    color: rgba(255,255,255,1);
+    background: none;
+}
+header {
+    background: #4ec7ff;
+    background-image: -webkit-linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: -moz-linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: -o-linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: -ms-linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#31c8b1, endColorstr=#4ec7ff, GradientType=1);
+    background-blend-mode: multiply;
+}
+header.header-home  {
+    background: #C00607;
+    background-image: -webkit-linear-gradient(110deg, #e20f10 10%, #c00607 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: -moz-linear-gradient(110deg, #e20f10 10%, #c00607 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: -o-linear-gradient(110deg, #e20f10 10%, #c00607 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: linear-gradient(110deg, #e20f10 10%, #c00607 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: -ms-linear-gradient(110deg, #e20f10 10%, #4ec7ff 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#31c8b1, endColorstr=#4ec7ff, GradientType=1);
+    background-blend-mode: multiply;
+    position: relative;
+}
+header.header-home .tp-pic img{
+    max-width: 640px;
+}
+header.header-about1  {
+    background: #4ec7ff;
+    background-image: -webkit-linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: -moz-linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: -o-linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%), url(&quot;../images/diamond.png&quot;);
+    background-image: linear-gradient(110deg, #e20f10 10%, #C00607 90%), url(&quot;/images/diamond.png&quot;);
+    background-image: -ms-linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#31c8b1, endColorstr=#4ec7ff, GradientType=1);
+    background-blend-mode: multiply;
+    position: relative;
+}
+header.header-about1 .tp-pic img{
+    max-width: 640px;
+}
+header.header-about {
+    background: url(../images/bg-about.jpg) no-repeat top center;
+    -webkit-background-size: cover; /* Safari 3-4 */
+    background-size: cover;
+    min-height: 640px;
+}
+header.header-about .tp-pic img{
+    max-width: 460px;
+}
+
+header.header-report {
+    background: url(../images/bg-about.jpg) no-repeat top center;
+    -webkit-background-size: cover; /* Safari 3-4 */
+    background-size: cover;
+    min-height: 115px;
+}
+header.header-report .tp-pic img{
+    max-width: 460px;
+}
+
+header.header-publisher {
+    background: url(../images/bg-7.jpg) no-repeat top center;
+    -webkit-background-size: cover; /* Safari 3-4 */
+    background-size: cover;
+}
+header.header-publisher .tp-pic img{
+    max-width: 460px;
+}
+header.header-advertiser {
+    background: url(../images/bg-advertiser.jpg) no-repeat top center;
+    -webkit-background-size: cover; /* Safari 3-4 */
+    background-size: cover;
+}
+header.header-advertiser .tp-pic img{
+    max-width: 400px;
+}
+header .navbar-default ul.navbar-nav li a {
+  color: rgba(255,255,255,0.6);
+  background: none;
+}
+header .navbar-default ul.navbar-nav li a.btn-started {
+    border: 2px #fff solid;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,1);
+}
+header .navbar-default ul.navbar-nav li a.btn-lag {
+    border: 2px #fff solid;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,1);
+    color: rgba(255,255,255,1);
+    color: #C00607;
+    /*margin-bottom: 20px;*/
+}
+@media (max-width: 480px) {
+    header .navbar-default ul.navbar-nav li a.btn-lag {
+    margin-bottom: 20px;
+}
+}
+header .navbar-default ul.navbar-nav li a.btn-lag:hover {
+    color: #C00607;
+}
+@media (min-width: 1366px) {
+    header {
+        min-height: 98px !important;
+    }
+}
+@media (min-width: 768px) {
+    header {
+        min-height: 115px;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        min-height: 149px;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        min-height: 76px;
+    }
+}
+@media (max-width: 768px) {
+    header .navbar-default ul.navbar-nav li a {
+        padding: 6px 15px;
+    }
+    header .navbar-default ul.navbar-nav li a.btn-started {
+        border: 0px #fff solid;
+        border-radius: 4px;
+        background-color: transparent;
+        color: rgba(255,255,255,1);
+    }
+}
+@media (max-width: 480px) {
+    header.header-about {
+        min-height: auto;
+        background-position: top center;
+    }
+    header.header-about .banner-container {
+        padding: 100px 0 40px 0;
+    }
+    header.header-about .banner-container1 {
+        padding: 100px 0 40px 0;
+    }
+    header.header-about .pull-right {
+        float: none!important;
+        text-align: center;
+    }
+    header.header-about .tp-caption p {
+        display: block!important;
+    }
+    header.header-about .tp-caption1 p {
+        display: block!important;
+    }
+    header.header-about .tp-caption2 p {
+        display: block!important;
+    }
+}
+@media (max-width: 480px) {
+    header.header-report {
+        min-height: auto;
+        background-position: top right;
+    }
+    header.header-report .banner-container {
+        padding: 100px 0 40px 0;
+    }
+    header.header-report .banner-container1 {
+        padding: 100px 0 40px 0;
+    }
+    header.header-report .pull-right {
+        float: none!important;
+        text-align: center;
+    }
+    header.header-report .tp-caption p {
+        display: block!important;
+    }
+    header.header-report .tp-caption1 p {
+        display: block!important;
+    }
+    header.header-report .tp-caption2 p {
+        display: block!important;
+    }
+}
+header .navbar-default ul.navbar-nav li a.getApp {
+  color: #3c79b4;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #e0e0e0));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* IE10+ */
+  background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e0e0e0, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+header .navbar-default ul.navbar-nav li a.getApp:hover {
+  color: #4081bf;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default ul.navbar-nav li a:hover {
+  color: rgba(255,255,255,1);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+header .navbar-default.scrolled {
+  border-bottom: 0px solid #C00607;
+  background-color: #C00607;
+}
+header .navbar-default.scrolled ul.navbar-nav li a {
+    /*color: #ffffff;*/
+}
+header .navbar-default.scrolled ul.navbar-nav li.active a {
+    color: rgb(255, 255, 255);
+}
+header .navbar-default.scrolled ul.navbar-nav li a.btn-started {
+    /*border-color: #C00607;*/
+}
+header .navbar-default.scrolled ul.navbar-nav li a.btn-lag {
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #C00607;;
+}
+header .navbar-default.scrolled ul.navbar-nav li a.btn-lag:hover {
+    color: #C00607;
+}
+header .navbar-default.scrolled ul.navbar-nav li a:hover {
+  color: #ffffff;
+}
+header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
+  background: #C00607;
+}
+header .navbar-default.scrolled .navbar-brand {
+  /*background: #C00607;*/
+}
+section .section-heading .divider:after {
+  background: #C00607;
+}
+section#about .about-item i.fa {
+  border: 2px solid #C00607;
+  color: #C00607;
+}
+section#about .about-item:hover i.fa {
+  color: #ffffff;
+  background: #C00607;
+}
+section#about .about-item:hover h3 {
+  color: #C00607;
+}
+section#about .list-about {
+
+}
+section#about .list-about .item-about {
+
+}
+@media (max-width: 768px) {
+    section#about .list-about .item-about {
+        flex: inherit;
+        -webkit-flex: inherit;
+    }
+}
+section#aff-publishers header h1:after {
+  background: #C00607;
+}
+section#aff-publishers .media i.fa {
+  border: 2px solid #C00607;
+  background-color: #fff;
+  color: #C00607;
+}
+section#aff-publishers .media:hover i.fa {
+  color: #ffffff;
+  background: #C00607;
+}
+section#aff-publishers .media:hover h3 {
+  color: #C00607;
+}
+section#aff-publishers .media.active i.fa {
+  color: #ffffff;
+  background: #C00607;
+}
+section#aff-publishers .media.active .media-heading {
+  color: #C00607;
+}
+@media (max-width: 480px) {
+    section#aff-publishers {
+        padding: 0 0 40px 0;
+    }
+}
+section#reviews {
+  background: url(&quot;../img/freeze/bk-freeze.jpg&quot;);
+}
+section#reviews header {
+  color: #ffffff;
+}
+section#reviews header h1:after {
+  background: #ffffff;
+}
+section#reviews .review-filtering .review .review-person img {
+  border: 3px solid #ffffff;
+}
+section#reviews .review-filtering .review .review-comment {
+  background: #ffffff;
+}
+section#reviews .review-filtering .review .review-comment h3 {
+  color: #C00607;
+}
+section#reviews .review-filtering .review .review-comment p span i {
+  color: #C00607;
+}
+section#reviews .review-filtering .review .review-comment:after {
+  border-right-color: #ffffff;
+}
+section#reviews .review-filtering .slick-dots li button {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+section#reviews .review-filtering .slick-dots li.slick-active button {
+  background: #C00607;
+}
+section#screens header h1:after {
+  background: #C00607;
+}
+section#screens .slider div img {
+  border: 2px solid #e5e5e5;
+}
+section#screens .slider div h4 {
+  color: #999999;
+}
+section#screens .slider .slick-dots li button {
+  background: #999999;
+}
+section#screens .slider .slick-dots li.slick-active button {
+  background: #C00607;
+}
+section#screens .filter a {
+  border: 2px solid #cccccc;
+  color: #999999;
+}
+section#screens .filter a:hover {
+  color: #ffffff;
+  background: #C00607;
+  border-color: #C00607;
+}
+section#screens .filter a.active {
+  color: #ffffff;
+  background: #C00607;
+  border-color:#C00607;
+}
+/* Partner Section */
+section#partner {
+  background: #f6f6f6;
+    border: 0 rgba(0,0,0,0.06) solid;
+    border-width: 1px 0;
+    /*padding: 0;*/
+}
+section#partner header h1:after {
+  background: #C00607;
+}
+section#partner img {
+    display: block;
+    max-height: 90px;
+    margin: 0 auto;
+}
+section#partner h3 {
+    text-align: center;
+    padding: 30px 0;
+}
+section#partner .col-sm-6 {
+    padding-bottom: 60px;
+}
+section#partner .col-sm-4 {
+    margin: 15px 0;
+}
+section#partner .row &gt; .col-sm-6:first-child {
+    border-right: 1px #e5e5e5 solid;
+}
+@media (max-width: 768px) {
+    section#partner img {
+        max-height: 80px;
+    }
+    section#partner .row &gt; .col-sm-6:first-child {
+        border-right: 0px #e5e5e5 solid;
+    }
+}
+@media (max-width: 480px) {
+    section#partner {
+        padding: 0 28px 40px 0;
+    }
+    section#partner h3 {
+        font-size: 16px;
+    }
+    section#partner img {
+        display: block;
+        max-height: 60px;
+        margin: 0 auto;
+    }
+}
+/* Get app Section */
+section#getApp {
+  background: url(&quot;../img/freeze/bk-freeze-ga.jpg&quot;);
+}
+section#getApp header {
+  color: #ffffff;
+}
+section#getApp header h1:after {
+  background: #ffffff;
+}
+section#getApp .platforms .media {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+section#getApp .platforms .media a i {
+  color: #ffffff;
+}
+section#getApp .platforms .media a div.media-body {
+  color: #ffffff;
+}
+section#getApp .platforms .media:hover {
+  background: #ffffff;
+}
+section#getApp .platforms .media:hover a i,
+section#getApp .platforms .media:hover a div.media-body {
+  color: #C00607;
+}
+/* support section */
+section#contact header h1:after {
+  background: #C00607;
+}
+section#contact .media i.fa {
+  border: 2px solid #C00607;
+  color: #C00607;
+}
+section#contact .media a {
+  color: #C00607;
+}
+section#contact .media:hover i.fa {
+  color: #ffffff;
+  background: #C00607;
+}
+section#contact .media:hover h3 {
+  color: #C00607;
+}
+/*@media (max-width: 480px) {
+    .media &gt; .pull-left {display: none;}
+}*/
+/* footer section */
+footer {
+    background-color: #27313b;
+    border-top: 5px #1289EA solid;
+}
+footer .social a {
+
+}
+footer .social a i {
+  color: #ffffff;
+}
+footer .social a:hover {
+
+}
+footer .social a:hover i {
+  color: #C00607;
+}
+footer .rights {
+  color: #ffffff;
+}
+footer .rights a {
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+}
+.navbar-toggle {
+  background-color: #CCC;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.btn.btn-primary {
+  color: #C00607;
+  border-color:#C00607;
+}
+.btn.btn-primary:hover {
+  border: 2px solid #C00607;
+  background: none;
+  color: #ffffff;
+  background-color: #C00607;
+}
+.btn.btn-primary1 {
+  color: #ffffff;
+  border-color: #C00607;
+  background-color: #C00607;
+}
+.btn.btn-primary1:hover {
+  color: #ffffff;
+  background: #C00607;
+  border-color: #C00607;
+}
+.btn.btn-primary.inverse {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.btn.btn-primary.inverse:hover {
+  color: #C00607;
+  background: #ffffff;
+  border-color: #ffffff;
+}
+.btn.btn-default {
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  color: #C00607;
+}
+.btn.btn-default:hover {
+  color: #C00607;
+}
+form .form-control:focus {
+  border-color: #C00607;
+  color: #999999;
+}
+@media screen and (max-width: 640px) {
+  header .navbar-default .navbar-toggle:hover,
+  header .navbar-default .navbar-toggle:focus {
+    background: none;
+  }
+  header .navbar-default ul.navbar-nav li a {
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  header .navbar-default ul.navbar-nav li a.getApp {
+    color: #ffffff;
+  }
+  header .navbar-default ul.navbar-nav li a:after {
+    display: none;
+  }
+  header .navbar-default ul.navbar-nav li a:hover {
+    color: #C00607;
+  }
+  header .navbar-default .navbar-collapse {
+    background: #C00607;
+  }
+  header .navbar-default.scrolled {
+    background: #C00607;
+  }
+  header .navbar-default.scrolled ul.navbar-nav li a {
+    color: #ffffff;
+  }
+  header .navbar-default.scrolled ul.navbar-nav li a:hover {
+    color: #C00607;
+  }
+}
+.pre-loader {
+  background:#C00607;
+}
+
+
+
+.icons{
+    display: block;
+    width:123px;height: 123px;
+    background-size: 100%!important;
+    margin: 0 auto 30px;
+}
+.icons-fullscreen{background: url(../images/icon-fullscreen.png) no-repeat top left;}
+.icons-banner{background: url(../images/icon-banner.png) no-repeat top left;}
+.icons-video{background: url(../images/icon-video.png) no-repeat top left;}
+.icons-offerwall{background: url(../images/icon-offerwall.png) no-repeat top left;}
+
+
+.block-fullscreen {padding:80px 0;}
+.block-video{position: relative;-webkit-background-size: cover;background-size: cover;height: 700px;padding: 0;}
+.block-banner{background: url(../images/ota-1.jpg) no-repeat top center;-webkit-background-size: cover;background-size: cover;height:700px;padding: 0;}
+.block-banner .right-side{margin-top: 0;}
+.block-offer{background:#f6f6f6 ;border: 0 rgba(0,0,0,0.06) solid;border-width: 1px 0;padding: 50px 0 0 0;}
+.block-flexible{background: url(../images/bg-8.jpg) repeat-x top center,#3193d0;color:#fff;position: relative;height: 700px;padding: 50px 0 0 0;}
+.block-flexible .portrait{
+    display: block;
+    width:309px;height: 601px;
+    background: url(../images/img-portrait.png) no-repeat top left;
+    position: absolute;top:50px;right:100px;
+}
+
+.block-flexible .landscape{
+    display: block;
+    width:559px;height: 288px;
+    background: url(../images/img-landscape.png) no-repeat top left;
+    position: absolute;
+    left: 80px;
+    /* bottom: 10px; */
+    top: 370px;
+}
+
+.block-choices {padding: 50px 0}
+.block-goal {padding: 50px 0}
+.block-analyzes{background: url(../images/bg-3.jpg) no-repeat top center,#51637e;height:606px;color:#fff;}
+.block-track {background:#f6f6f6 url(../images/bg-5.png) no-repeat right bottom;border: 0 rgba(0,0,0,0.06) solid;border-width: 1px 0;height: 600px;padding: 0;}
+
+@media (max-width: 768px) {
+    .block-fullscreen,
+    .block-banner,
+    .block-video,
+    .block-offer,
+    .block-flexible,
+    .block-choices,
+    .block-goal,
+    .block-track,
+    .block-analyzes {height: auto;padding: 40px 0;text-align: center;}
+
+    .block-fullscreen .col-sm-6,
+    .block-banner .col-sm-6,
+    .block-video .col-sm-6,
+    .block-offer .col-sm-6,
+    .block-choices .col-sm-6,
+    .block-analyzes .col-sm-6,
+    .block-goal .col-sm-6,
+    .block-flexible .col-sm-6 {width: 100%;}
+
+    .block-fullscreen .col-left,
+    .block-banner .col-right,
+    .block-video .col-left,
+    .block-offer .col-right,
+    .block-choices .col-left,
+    .block-goal .col-right,
+    .block-flexible .portrait,
+    .block-flexible .landscape {display: none}
+
+    .block-goal img {width: 100%;}
+    .block-track {background-image: none}
+    .block-choices ul {margin: 0;padding: 0;list-style: none;}
+    .block-choices p {color: #999;}
+}
+.img-right{
+    position: absolute;
+    right:0;
+}
+.img-left {
+    position: absolute;
+    left: 0;
+}
+.img-right ,
+.img-left  {
+    padding: 0;
+}
+.img-right img,
+.img-left img {width: 100%;padding: 0;max-width: 720px;}
+.img-left img {float: left;}
+.img-right img {float: right;}
+
+
+section#features .media i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 20px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 2.6em;
+  text-align: center;
+}
+section#features .media .media-heading {
+  padding-top: 0px;
+  font-weight: 300;
+}
+section#features .media .media-body {
+  color: #999999;
+}
+section#features .media.feature {
+  margin-top: 25px;
+}
+section#features .media.feature:first-child {
+  margin-top: 0;
+}
+section#features img {
+  margin: 0 auto 20px;
+}
+section#features {
+  background: #f6f6f6;
+}
+section#features header h1:after {
+  background: #C00607;
+}
+section#features .media i.fa {
+  border: 2px solid #C00607;
+  color: #C00607;
+}
+section#features .media:hover i.fa {
+  color: #ffffff;
+  background: #C00607;
+}
+section#features .media:hover h3 {
+  color: #C00607;
+}
+section#features .media.active i.fa {
+  color: #ffffff;
+  background: #C00607;
+}
+section#features .media.active .media-heading {
+  color: #C00607;
+}
+section#features {
+  background: #f6f6f6;
+}
+section#features header h1:after {
+  background: #C00607;
+}
+section#features .media i.fa {
+  border: 2px solid #C00607;
+  color: #C00607;
+}
+section#features .media:hover i.fa {
+  color: #ffffff;
+  background: #C00607;
+}
+section#features .media:hover h3 {
+  color: #C00607;
+}
+section#features .media.active i.fa {
+  color: #ffffff;
+  background: #C00607;
+}
+section#features .media.active .media-heading {
+  color: #C00607;
+}
+
+
+.block-choices {padding: 50px 0}
+.block-goal {padding: 50px 0}
+.block-analyzes{background: url(../images/bg-3.jpg) no-repeat top center,#51637e;height:606px;color:#fff;}
+.block-track {background:#f6f6f6 url(../images/reportADSOTA.png) no-repeat right bottom;border: 0 rgba(0,0,0,0.06) solid;border-width: 1px 0;height: 600px;padding: 0;}
+
+@media (max-width: 768px) {
+    .block-fullscreen,
+    .block-banner,
+    .block-video,
+    .block-offer,
+    .block-flexible,
+    .block-choices,
+    .block-goal,
+    .block-track,
+    .block-analyzes {height: auto;padding: 40px 0;text-align: center;}
+
+    .block-fullscreen .col-sm-6,
+    .block-banner .col-sm-6,
+    .block-video .col-sm-6,
+    .block-offer .col-sm-6,
+    .block-choices .col-sm-6,
+    .block-analyzes .col-sm-6,
+    .block-goal .col-sm-6,
+    .block-flexible .col-sm-6 {width: 100%;}
+
+    .block-fullscreen .col-left,
+    .block-banner .col-right,
+    .block-video .col-left,
+    .block-offer .col-right,
+    .block-choices .col-left,
+    .block-goal .col-right,
+    .block-flexible .portrait,
+    .block-flexible .landscape {display: none}
+
+    .block-goal img {width: 100%;}
+    .block-track {background-image: none}
+    .block-choices ul {margin: 0;padding: 0;list-style: none;}
+    .block-choices p {color: #999;}
+}
+.img-right{
+    position: absolute;
+    right:0;
+}
+.img-left {
+    position: absolute;
+    left: 0;
+}
+.img-right ,
+.img-left  {
+    padding: 0;
+}
+.img-right img,
+.img-left img {width: 100%;padding: 0;max-width: 720px;}
+.img-left img {float: left;}
+.img-right img {float: right;}
+
+
+
+/*css day*/
+
+.spse-tile-153 {
+    width: 250px;
+}
+.spse-tile, .spse-tile-with-caption {
+    display: inline-table;
+}
+.spse-tile-153 .spse-tile-photo {
+    width: 250px;
+    height: 250px;
+}
+.spse-tile-153 .spse-tile-photo img {
+    width: 250px;
+    height: 250px;
+}
+@media screen and (max-width: 480px) {
+  .spse-tile-153 {
+    width: 320px;
+  }
+  .spse-tile, .spse-tile-with-caption {
+    display: inline-table;
+  }
+  .spse-tile-153 .spse-tile-photo {
+    width: 320px;
+    height: 320px;
+  }
+  .spse-tile-153 .spse-tile-photo img {
+    width: 320px;
+    height: 320px;
+  }
+  .spse-tile-153 figure {
+    width: 340px;
+    height: 340px;
+  }
+  .spse-tile figure {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    vertical-align: middle;
+  }.spse-tile figure img {
+    width: 320px;
+    height: 320px;
+  }
+}
+.spse-tile-photo {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+/*.spse-tile-153 figure {
+    width: 250px;
+    height: 250px;
+}*/
+.spse-tile figure {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    vertical-align: middle;
+}
+.spse-tile-date {
+    left: 0;
+    color: #fff;
+    position: absolute;
+    font-size: 19px;
+    font-family: &#39;Roboto&#39;, sans-serif;
+    background-color: rgba(0,0,0,.6);
+    top: 0;
+    display: inline-table;
+    padding: 5%;
+    min-width: 34%;
+    padding: 5% 6%;
+    line-height: 1.2em;
+}
+.spse-event-list-item .spse-tile {
+    float: left;
+    cursor: pointer;
+}
+.spse-tile-date .spse-tile-date-day {
+    font-size: 35px;
+    font-weight: bold;
+}
+.spse-tile-date {
+    left: 0;
+    color: #fff;
+    position: absolute;
+    font-size: 19px;
+    font-family: &#39;Roboto&#39;, sans-serif;
+    background-color: rgba(0,0,0,.6);
+    top: 0;
+    display: inline-table;
+    padding: 5%;
+    min-width: 34%;
+    padding: 11% 6% 5% 6%;
+    line-height: 1.2em;
+}
+.spse-tile-date .spse-tile-date-month {
+    padding-top: 5px;
+}
+.spse-tile-153 h3 {
+    height: 35px;
+}
+.spse-tile h3 {
+    left: 0;
+    color: #fff;
+    position: absolute;
+    display: inline;
+    font-size: 15px;
+    font-family: &#39;Roboto&#39;, sans-serif;
+    background-color: rgba(0,0,0,.6);
+    padding: 5px;
+    font-weight: 900;
+    line-height: 17px;
+    bottom: -19px;
+    width: 100%;
+}
+.text-about {
+  color: white;
+  margin-top: -26px;
+}
+#text-p {
+  color: white;
+  margin-bottom: -22px;
+}
+</style>
+    <style type='text/css'>
+      .ttname {    color: #fff;
+    font-weight: 700;
+    font-family: Roboto;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 10px;
+line-height: 50px;
+}
+      header .navbar-default.scrolled .navbar-brand .ttname {line-height: 33px!important}
+/*@media (min-width: 768px) {
+    .row-eq-height {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+*/
+
+/* custom */
+
+/*.section-header .desc {
+    text-align: justify;
+}*/
+
+/*.getstart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}*/
+
+#advertisers .col-md-4,
+#publishers .col-md-6 {
+    padding-bottom: 50px;
+}
+
+
+/* fix styles.css */
+
+section#advertisers .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+section#publishers .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.spinner {
+  margin: 0 auto;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner &gt; div {
+  width: 16px;
+  height: 16px;
+  background-color: #C00607;
+}
+
+#submit:hover .spinner &gt; div {
+    background-color: #fff;
+}
+
+#submit.sending &gt; span {
+    display: none;
+}
+
+#submit .spinner {
+    display: none;
+}
+#submit.sending .spinner {
+    display: block;
+}
+
+#event-banner .banner-content {
+  display: inline-block;
+  position: relative;
+}
+
+#event-banner .close, .pop-banner .close {
+  font-size: 32px;
+  position: absolute;
+  font-weight: 900;
+  z-index: 99;
+  right: 5px;
+  top: -3px;
+  color: #eee;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .8;
+  text-shadow: none;
+}
+      .main-post, .col-post, .secondary-post {display: inline-block; width: 20%}
+      .pubimg {width: 90px; height: 90px}
+      headert h4 {text-align: center; margin-top: 6px}
+      headert h4 a {color: #464a4c!important; font-size: 13px; text-decoration: none!important; font-weight: 500}
+      .featured-post {width: 970px; margin: 0 auto;}
+</style>
+
+<script type='text/javascript'>
+//<![CDATA[
+function removeHtmlTag(e,t){for(var s=e.split("<"),r=0;r<s.length;r++)-1!=s[r].indexOf(">")&&(s[r]=s[r].substring(s[r].indexOf(">")+1,s[r].length));return s=s.join(""),s=s.substring(0,t-1)}function sliderposts(e){j=showRandomImg?Math.floor((imgr.length+1)*Math.random()):0,img=new Array,numposts1<=e.feed.entry.length?maxpost=numposts1:maxpost=e.feed.entry.length;for(var t=0;t<maxpost;t++){var r,i,n=e.feed.entry[t],l=n.category[0].term,o=n.title.$t;if(t==e.feed.entry.length)break;for(var m=0;m<n.link.length;m++)if("alternate"==n.link[m].rel){i=n.link[m].href;break}for(var m=0;m<n.link.length;m++)if("replies"==n.link[m].rel&&"text/html"==n.link[m].type){r=n.link[m].title.split(" ")[0];break}if("content"in n)var g=n.content.$t;else if("summary"in n)var g=n.summary.$t;else var g="";postdate=n.published.$t,j>imgr.length-1&&(j=0),img[t]=imgr[j],s=g,a=s.indexOf("<img"),b=s.indexOf('src="',a),c=s.indexOf('"',b+5),d=s.substr(b+5,c-b-5),-1!=a&&-1!=b&&-1!=c&&""!=d&&(img[t]=d);for(var h=[1,2,3,4,5,6,7,8,9,10,11,12],p=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],f=(postdate.split("-")[2].substring(0,2),postdate.split("-")[1]),u=(postdate.split("-")[0],0);u<h.length;u++)if(parseInt(f)==h[u]){f=p[u];break}if(0==t){var v='<div class="main-post col-post"><a href="'+i+'"><span class="blue" style="display: none">'+l+'</span><img class="pubimg" src="'+img[t]+'" alt=""></img></a><headert><h4 class="entry-title"><a href="'+i+'" title="">'+o+"</a></h3></headert></div>";document.write(v)}else{var v='<div class="secondary-post col-post" style="margin-right:0"><span class="blue" style="display: none">'+l+'</span><a class="hover_play_small" href="'+i+'"><img class="pubimg" src="'+img[t]+'" ></img></a><headert><h4><a href="'+i+'">'+o+"</a></h4></headert></div>";document.write(v)}j++}}imgr=new Array,imgr[0]="https://i.imgur.com/MKyql7M.jpg",showRandomImg=!0,aBold=!0,summaryPost=150,summaryTitle=50,numposts1=10,featured_numposts="3";
+//]]>
+</script>
+
+<script type='text/javascript'>
+	function signupadv(btname) {
+		var puba = btname.getAttribute(&quot;pub&quot;);
+          document.getElementById(&#39;pubid&#39;).innerHTML = puba ;
+		}
+	</script>
+<script>
+  function thongke(linklogo,urlweb,traffic,anhctk,motaweb,tentg,emailam,phoneam) {
+document.write(&quot;<h3>THÔNG TIN</h3><table border='1' cellpadding='10' class='detailpubt' width='100%'><tr><td class='ttabb' style='width: 63%'><img class='ghhdgb' src='&quot; + linklogo + &quot;'/><span class='lskdf'>CHI TIẾT WEBSITE</span></td><td class='ttabb'><span class='lskdf'><i class='fa fa-envelope-o'/> THÔNG TIN LIÊN HỆ</span></td></tr><tr><td class='luizz'><ul class='ulpass'><li>URL website: <a href='&quot; + urlweb + &quot;' target='_blank' title='url website pub'>&quot; + urlweb + &quot;</a></li><li>Traffic trung bình tháng: &quot;+ traffic +&quot;</li><li>Ảnh chụp thống kê (URL): <a href='&quot; + anhctk + &quot;' target='_blank' title='anh-chup-thong-ke-adtech-pub'>&quot; + anhctk + &quot;</a></li><li>Ghi chú website: &quot; + motaweb + &quot;</li></ul></td><td class='luizz'><ul class='ulpass'><li>Họ và tên chủ quản: &quot; + tentg + &quot;</li><li>Email quản trị: &quot; + emailam + &quot;</li><li>Số điện thoại: &quot; + phoneam + &quot;</li></ul></td></tr></table>&quot;)
+}
+  function banggia (d970x90,d728x90,d300x250,d300x600,d970x250) {
+document.write(&quot;<br/><h3>BẢNG GIÁ BANNER</h3><table border='2' cellpadding='3' cellspacing='3' style='width: 100%;'><tbody class='bgiabn'><tr><th>970x90</th><th>728x90</th><th>300x250</th><th>300x600</th><th>970x250</th></tr><tr><td><span>&quot; + d970x90 + &quot;</span></td><td><span>&quot; + d728x90 + &quot;</span></td><td><span>&quot; + d300x250 + &quot;</span></td><td><span>&quot; + d300x600 + &quot;</span></td><td><span>&quot; + d970x250 + &quot;</span></td></tr></tbody></table>&quot;)
+  }
+</script>
+  </head>
+
+  <body>
+<style>
+.ulpass {line-height: 1.7em; margin-top: 5px; font-size: 15px}
+  .luizz {padding-left: 10px}
+
+  .detailpubt i {padding-right: 3px}
+  .detailpubt {font-size: 14px; font-family: Roboto}
+  .detailpubt .ghhdgb {   
+ width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+ .detailpubt .lskdf {font-size: 15px; font-weight: 700;}
+  .detailpubt .ttabb {background: #eaeaea; padding-left: 10px}
+  
+</style>    
+
+
+
+
+
+    <!-- <div class="pre-loader">
+        <div class="load-con">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div> -->
+
+<header class='header-home'>
+
+    <nav class='navbar navbar-default navbar-fixed-top' role='navigation'>
+    <div class='container'>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class='navbar-header'>
+            <button class='navbar-toggle' data-target='#main-menu' data-toggle='collapse' type='button'>
+                <span class='fa fa-bars fa-lg'/>
+            </button>
+            <a class='navbar-brand' href='/'>
+              <img alt='' class='logo' src='https://2.bp.blogspot.com/-bOqDOROD2ns/WsW0SmOgVLI/AAAAAAAACAo/08z8IFpgpAMKKcHqM633HlrZT1aMgZBwQCLcBGAs/s320/Adtech.png'/><div class='ttname'/>
+            </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class='collapse navbar-collapse' id='main-menu'>
+            <ul class='nav navbar-nav navbar-right'>
+                    <!-- <li class="active">
+                        <a href="/vi">Trang chủ</a>
+                    </li> -->
+                    <li>
+                        <a href='/vi/about.html'>Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href='http://adx.appota.com/' target='_blank'>Ad Exchange</a>
+                    </li>
+                    <li>
+                        <a href='#advertisers'>Nhà Quảng Cáo</a>
+                    </li>
+                    <li>
+                        <a href='#publishers'>Nhà Xuất Bản</a>
+                    </li>
+                    <li><a href='/p/report.html'>Báo cáo</a></li>
+              <li><a href='/p/event.html'>Sự kiện</a></li>
+                    <!-- <li>
+                        <a href="/vi/about.html">Giới thiệu</a>
+                    </li> -->
+                    <li>
+                        <a href='#' target='_blank'>Blog</a>
+                    </li>
+                    <li>
+                      <a class='btn-started' href='#login'>Đăng ký</a>
+                    </li>
+                    <li>
+                        <a class='btn-lag' href='#en'>EN</a>
+                    </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-->
+</nav>
+
+<style>
+#login{top:0;left:0;right:0;bottom:0;position:fixed;opacity:0;visibility:hidden;transition:.5s;transform:scale(1.2)}
+#login:target{transform:scale(1);background:rgba(0,0,0,.2);opacity:1;visibility:visible;position:fixed;top:0;left:0;right:0;bottom:0;margin:0;z-index:999999999999;transition:.5s}
+.login_{background:#fff;border-radius:4px;z-index:999;width:488px;max-width:100%;position:fixed;top:331px;left:50%;transform:translate(-50%,-50%);margin:0;;box-sizing:border-box;box-shadow:0 0 100px rgba(0,0,0,.1); padding: 20px; border: 1px solid #afaeae}
+  .login_ h3 {font-weight: 500; font-size: 25px}
+  .sign1 {margin-bottom: 20px}
+  .sign1 a {
+text-decoration: none!important;
+    color: #fff!important;
+    font-size: 20px;
+    background: #C00607;
+    padding-top: 13px;
+    width: 320px;
+    display: block;
+    padding-bottom: 13px;
+}
+  .vstt {background: #337ab7!important}
+  .lyzhggf {margin-top: 15px; margin-bottom: 20px; background: #C00607; width: 70px; height: 4px}
+  .closelogin {    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+  .closelogin  a i {color: #000!important; font-size: 24px}
+</style>
+
+<div id='login'>
+<div class='login_'>
+  <center><h3>ĐĂNG KÝ ADTECH</h3>
+    <div class='lyzhggf'/>
+  <div class='sign1'><a class='vstt' href='/p/signup-pub.html'>ĐĂNG KÝ LÀM PUBLISHERS</a></div>
+  <div class='sign1'><a href='/p/signup-adv.html'>ĐĂNG KÝ LÀM ADVERTISERS</a></div>
+    <div class='closelogin'><a href='#'><i aria-hidden='true' class='fa fa-times'/></a></div>
+</center>
+  </div>
+  </div>
+
+    <!--RevSlider-->
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+    <div class='banner-container'>
+        <div class='banner'>
+            <ul>
+                <li data-masterspeed='1000' data-slotamount='7' data-transition='zoomout'>
+                    <!-- MAIN IMAGE -->
+                    <img alt='slidebg1' data-bgfit='cover' data-bgposition='left top' data-bgrepeat='no-repeat' src='https://i.imgur.com/4fg0CTn.png'/>
+                    <div class='tp-caption2 scrollpoint sp-effect3' data-easing='Power4.easeOut' data-hoffset='0' data-speed='1000' data-start='1400' data-voffset='0' data-x='center' data-y='250'>
+                        <h1>Mạng lưới quảng cáo công nghệ VNSS hàng đầu Việt Nam</h1>
+                    </div>
+                    <div class='tp-pic scrollpoint sp-effect5 '>
+                      <img alt='' src='https://i.imgur.com/emdzIFX.png'/>
+                    </div>
+                </li>
+            </ul>
+            <div class='qualification'>
+              <img src='#'/>
+            </div>
+        </div>
+    </div>
+  </b:if>
+</header>
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<div class='wrapper'>
+    <section id='features'>
+        <div class='container'>
+            <div class='section-heading scrollpoint sp-effect3'>
+                <h1>Ưu điểm từ AdTech</h1>
+                <div class='divider'/>
+            </div>
+            <div class='row'>
+                <div class='col-md-4 col-sm-12 scrollpoint sp-effect1'>
+                    <div class='media text-right feature'>
+                        <a class='pull-right' href='#'>
+                            <i class='fa fa-american-sign-language-interpreting fa-2x'/>
+                        </a>
+                        <div class='media-body'>
+                            <h3 class='media-heading'>Quảng bá website, sản phẩm với các website cùng chủ đề</h3>
+                        </div>
+                    </div>
+                    <div class='media text-right feature'>
+                        <a class='pull-right' href='#'>
+                            <i class='fa fa-users fa-2x'/>
+                        </a>
+                        <div class='media-body'>
+                            <h3 class='media-heading'>Dễ dàng tiếp cận với khách hàng, độc giả</h3>
+                        </div>
+                    </div>
+                    <div class='media text-right feature'>
+                        <a class='pull-right' href='#'>
+                            <i class='fa fa-cc-paypal fa-2x'/>
+                        </a>
+                        <div class='media-body'>
+                            <h3 class='media-heading'>Thoải mái trong việc hợp tác, thanh toán</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-4 col-sm-12'>
+                    <img alt='' class='img-responsive scrollpoint sp-effect5' src='https://i.imgur.com/mH8B8VH.png'/>
+                </div>
+                <div class='col-md-4 col-sm-12 scrollpoint sp-effect1 active'>
+                    <div class='media feature'>
+                        <a class='pull-left' href='#'>
+                            <i class='fa fa-google fa-2x'/>
+                        </a>
+                        <div class='media-body'>
+                            <h3 class='media-heading'>Đưa website lên top Google nhanh chóng bằng việc quảng bá</h3>
+                        </div>
+                    </div>
+                    <div class='media feature'>
+                        <a class='pull-left' href='#'>
+                            <i class='fa fa-trophy fa-2x'/>
+                        </a>
+                        <div class='media-body'>
+                            <h3 class='media-heading'>Phát triển đột phá về mọi mặt với quảng bá website</h3>
+                        </div>
+                    </div>
+                    <div class='media feature'>
+                        <a class='pull-left' href='#'>
+                            <i class='fa fa-facebook fa-2x'/>
+                        </a>
+                        <div class='media-body'>
+                            <h3 class='media-heading'>Tiếp cận trung gian qua Facebook MKT</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id='advertisers'>
+        <div class='container'>
+            <div class='section-heading scrollpoint sp-effect5'>
+                <h1>Nhà Quảng Cáo</h1>
+                <div class='divider'/>
+            </div>
+            <div class='row row-eq-height'>
+                <div class='col-md-4 col-sm-4 scrollpoint sp-effect1 col-right'>
+                  <img src='https://i.imgur.com/c1B3U37.png'/>
+                    <div class='section-header'>
+                        <h2>Gia tăng người dùng</h2>
+                        <div class='desc'>Cung cấp, hỗ trợ các hình thức quảng cáo hiệu quả (CPI/CPA, đẩy CPI số lượng lớn, ASO&#8230;), phát triển tập người dùng chất lượng cao cho ứng dụng di động</div>
+                        <!-- <div class="getstart">
+                        <a href="mailto:sale@adsota.com" class="btn btn-primary  btn-lg">Contact Us</a>
+                    </div> -->
+                    </div>
+                    <div class='getstart'>
+                        <a class='btn btn-primary  btn-lg' href='mailto:sale@adsota.com'>Liên hệ</a>
+                    </div>
+                </div>
+                <div class='col-md-4 col-sm-4 scrollpoint sp-effect3 col-left'>
+                  <img src='https://i.imgur.com/og7mJnD.png'/>
+                    <div class='section-header'>
+                        <h2>Marketing tích hợp</h2>
+                        <div class='desc'>Gia tăng nhận diện thương hiệu, hiệu quả kinh doanh thông qua các kênh truyền thông, quảng cáo, xây dựng cộng đồng, chiến dịch viral marketing, KOLs,...</div>
+                        <!-- <div class="getstart">
+                        <a href="mailto:sale@adsota.com" class="btn btn-primary  btn-lg">Contact Us</a>
+                    </div> -->
+                    </div>
+                    <div class='getstart'>
+                      <a class='btn btn-primary  btn-lg' href='/p/lien-he.html'>Liên hệ</a>
+                    </div>
+                </div>
+                <div class='col-md-4 col-sm-4 scrollpoint sp-effect2 col-right'>
+                  <img src='https://i.imgur.com/lyDDYK0.png'/>
+                    <div class='section-header'>
+                        <h2>Lead Generation</h2>
+                        <div class='desc'>Khai thác nền tảng dữ liệu của các mạng xã hội lớn, phát triển tập khách hàng tiềm năng nhất, có nhu cầu, mức độ phù hợp cao với giá trị của sản phẩm, dịch vụ.</div>
+                        <!-- <div class="getstart">
+                        <a href="mailto:sale@adsota.com" class="btn btn-primary  btn-lg">Contact Us</a>
+                    </div> -->
+                    </div>
+                    <div class='getstart'>
+                        <a class='btn btn-primary  btn-lg' href='/p/lien-he.html'>Liên hệ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id='publishers'>
+        <div class='container'>
+            <div class='section-heading scrollpoint sp-effect5'>
+                <h1>Nhà xuất bản</h1>
+                <div class='divider'/>
+            </div>
+            <div class='row'>
+                <div class='col-md-12 col-sm-12 scrollpoint sp-effect2 col-right'>
+                  <img src='https://i.imgur.com/3vjwSzj.png'/>
+                    <div class='section-header'>
+                        <h2>Tối ưu doanh thu traffic</h2>
+                        <div class='desc'>Bạn sẽ có một khoản doanh thu ổn định khi đăng ký AdTech nếu website của bạn có một lượng traffic ổn định. Việc hợp tác với chúng tôi cũng một phần quảng bá trung gian website của bạn đưa độc giả đến gần với bạn hơn</div>
+                        <div class='getstart'>
+                          <a class='btn btn-primary  btn-lg' href='/p/signup-pub.html' target='_blank'>Tham gia ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id='partner'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm-12 col-md-12'>
+                    <div class='row'>
+                        <div class='section-heading scrollpoint sp-effect5'>
+                            <h1>Đối tác</h1>
+
+
+
+                            <div class='divider'/>
+                        </div>
+
+<div class='ct-wrapper' id='featured-posts-section'>
+<div class='featured-post padding clearfix'>
+<b:if cond='data:blog.isMobileRequest'>
+<style>
+  .featured-post {width: 100%!important}
+</style>
+  </b:if>
+<script src='/feeds/posts/default/?max-results=50&amp;orderby=published&amp;alt=json-in-script&amp;callback=sliderposts'/>
+
+  <br/>
+<center>
+<a class='btn btn-primary  btn-lg' href='/p/signup-pub.html' target='_blank'>Đăng ký Publishers</a>
+  </center>
+</div>
+</div> 
+
+<!--
+                        <div class='col-xs-3 col-xs-3 scrollpoint sp-effect1'>
+                          <img src='https://4.bp.blogspot.com/-Bf_0td_ljk0/WbLJO5chpNI/AAAAAAAABi8/-Ux6A7cb8FkijQeFwxTI9Hv6kOjqP-nWgCLcBGAs/s1600/logo-linkthuthuat.PNG'/>
+                        </div>
+                        <div class='col-xs-3 col-xs-3 scrollpoint sp-effect1'>
+                          <img src='https://4.bp.blogspot.com/-xAbu1yRYWOE/WqYk_id1H6I/AAAAAAAADac/s-X-9_Q0CPYPz2BEaX8Nbh_y9kYt_LWoACK4BGAYYCw/s1600/niem-style-logo.png'/>
+                        </div>
+                        <div class='col-xs-3 col-xs-3 scrollpoint sp-effect1'>
+                          <img src='https://1.bp.blogspot.com/-k2YKr7sNsac/WmVLrL31GeI/AAAAAAAAK0I/TRwiOTt5i6wavjLkzGtuFCwqYnFNSfElQCK4BGAYYCw/s1600/rVdf0h5-min.png'/>
+                        </div>
+                        <div class='col-xs-3 col-xs-3 scrollpoint sp-effect1'>
+                          <img src='https://3.bp.blogspot.com/-uM9FsgRwsMY/WhLo2KpANnI/AAAAAAAAByA/5NYanUbCmU455oQS97fFONmEoT8WoReCQCLcBGAs/s1600/optimized-af6s.png'/>
+                        </div>
+                      --> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="contact" class="doublediagonal">
+    <div class="container">
+        <div class="section-heading scrollpoint sp-effect3">
+            <h1>Liên hệ</h1>
+            <div class="divider"></div>
+            <p>Liên hệ với chúng tôi.</p>
+            <a href="mailto:sale@adsota.com" class="btn btn-primary btn-lg">Liên hệ</a>
+        </div>
+    </div>
+</section> -->
+</div>
+<!-- <div class="modal fade" id="event-072017">
+    <div class="modal-dialog modal-lg text-center">
+        <div class="banner-content">
+        <a data-dismiss="modal" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+        <a target="_blank" href="https://adsota.com/event/chien-luoc-gia-tang-nguoi-dung-ung-dung-di-dong.html">
+            <img  class="modal-content" src="/event/ev-201707/img/event-201707.png" alt="" style="max-width: 100%">
+        </a>
+        </div>
+    </div>
+</div> -->
+    </b:if>
+
+
+
+    <div class='page'>
+     
+     
+
+      <b:with value='data:widgets.AdSense any (w =&gt; w.sectionId == &quot;ads&quot;)' var='hasVerticalAds'>
+        <div class='page_body'>
+       
+
+        
+             
+              <main class='centered-bottom' id='main' role='main' tabindex='-1'>
+                <b:if cond='data:view.isMultipleItems'>
+                 
+                </b:if>
+                <b:if cond='data:view.isArchive or (data:view.isSearch and data:view.search.resultsMessageHtml)'>
+                  <div class='post-filter-message'>
+                    <div>
+                      <b:if cond='data:view.isArchive'>
+                        <data:view.archive.rangeMessage/>
+                      <b:elseif cond='data:view.isSearch and data:view.search.resultsMessageHtml'/>
+                        <data:view.search.resultsMessageHtml/>
+                      </b:if>
+                    </div>
+                    <div>
+                      <a class='flat-button ripple' expr:href='data:blog.homepageUrl'>
+                        <data:messages.showAll/>
+                      </a>
+                    </div>
+                  </div>
+                </b:if>
+<b:if cond='data:blog.url != data:blog.homepageUrl'>
+                <b:section class='main' id='page_body' name='Page Body' showaddelement='false'>
+                  <b:widget id='Blog1' locked='true' title='Bài đăng trên Blog' type='Blog' version='2' visible='true'>
+                    <b:widget-settings>
+                      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+                      <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+                      <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+                      <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+                      <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+                      <b:widget-setting name='showAuthor'>false</b:widget-setting>
+                      <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+                      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                      <b:widget-setting name='timestampLabel'/>
+                      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+                      <b:widget-setting name='showLabels'>false</b:widget-setting>
+                      <b:widget-setting name='showLocation'>false</b:widget-setting>
+                      <b:widget-setting name='postLabelsLabel'/>
+                      <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+                      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+                      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+                      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+                      <b:widget-setting name='showReactions'>false</b:widget-setting>
+                    </b:widget-settings>
+                    <b:includable id='main'>
+          <b:include name='noContentPlaceholder'/>
+
+          <b:comment>Cap the total number of ads (widgets and inline ads).</b:comment>
+          <b:with value='3' var='maxNumAds'>
+          <b:with value='data:widgets.AdSense.size' var='numDesktopAds'>
+          <b:with value='data:widgets.AdSense count (w =&gt; w.sectionId != &quot;ads&quot;)' var='numMobileAds'>
+          <b:comment>Filter out the featured post, but only on the homepage.</b:comment>
+          <b:with value='data:widgets.FeaturedPost filter (w =&gt; w.sectionId == &quot;page_body&quot;) map (w =&gt; w.postId)' var='featuredPostIds'>
+          <b:with value='data:view.isHomepage                                          ? data:posts filter (post =&gt; post.id not in data:featuredPostIds)                                          : data:posts' var='posts'>
+            <b:include name='super.main'/>
+          </b:with>
+          </b:with>
+          </b:with>
+          </b:with>
+          </b:with>
+        </b:includable>
+                    <b:includable id='aboutPostAuthor'>
+  <div class='author-name'>
+    <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+      <span>
+        <data:post.author.name/>
+      </span>
+    </a>
+  </div>
+  <div>
+    <span class='author-desc'>
+      <data:post.author.aboutMe/>
+    </span>
+  </div>
+</b:includable>
+                    <b:includable id='addComments'>
+  <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:message name='messages.postAComment'/>
+  </a>
+</b:includable>
+                    <b:includable id='commentAuthorAvatar'>
+  <div class='avatar-image-container'>
+    <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
+  </div>
+</b:includable>
+                    <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:messages.deleteComment'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+                    <b:includable id='commentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+ 
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+                    <b:includable id='commentFormIframeSrc' var='post'>
+  <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+</b:includable>
+                    <b:includable id='commentItem' var='comment'>
+  <div class='comment' expr:id='&quot;c&quot; + data:comment.id'>
+    <b:include cond='data:blog.enabledCommentProfileImages' name='commentAuthorAvatar'/>
+
+    <div class='comment-block'>
+      <div class='comment-author'>
+        <b:if cond='data:comment.authorUrl'>
+          <b:message name='messages.authorSaidWithLink'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+            <b:param expr:value='data:comment.authorUrl' name='authorUrl'/>
+          </b:message>
+        <b:else/>
+          <b:message name='messages.authorSaid'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+          </b:message>
+        </b:if>
+      </div>
+      <div expr:class='&quot;comment-body&quot; + (data:comment.isDeleted ? &quot; deleted&quot; : &quot;&quot;)'>
+        <data:comment.body/>
+      </div>
+      <div class='comment-footer'>
+        <span class='comment-timestamp'>
+          <a expr:href='data:comment.url' title='comment permalink'>
+            <data:comment.timestamp/>
+          </a>
+          <b:include data='comment' name='commentDeleteIcon'/>
+        </span>
+      </div>
+    </div>
+  </div>
+</b:includable>
+                    <b:includable id='commentList' var='comments'>
+  <div id='comments-block'>
+    <b:loop values='data:comments' var='comment'>
+      <b:include data='comment' name='commentItem'/>
+    </b:loop>
+  </div>
+</b:includable>
+                    <b:includable id='commentPicker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <b:include data='post' name='iframeComments'/>
+  <b:elseif cond='data:post.showThreadedComments'/>
+    <b:include data='post' name='threadedComments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+                    <b:includable id='comments' var='post'>
+  <section expr:class='&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+
+      <b:include name='commentsTitle'/>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <b:include cond='data:post.comments' data='post.comments' name='commentList'/>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <div class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+              <data:messages.oldest/>
+            </a>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+              <data:messages.older/>
+            </a>
+          </b:if>
+
+          <span class='comment-range-text'>
+            <data:post.commentRangeText/>
+          </span>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+              <data:messages.newer/>
+            </a>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+              <data:messages.newest/>
+            </a>
+          </b:if>
+        </div>
+      </b:if>
+
+      <div class='footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='commentForm'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <b:include data='post' name='addComments'/>
+          </b:if>
+        </b:if>
+      </div>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+     
+    </b:if>
+  </section>
+</b:includable>
+                    <b:includable id='commentsLink'>
+          <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+            <b:include data='{ iconClass: &quot;touch-icon&quot; }' name='commentIcon'/>
+            <span class='num_comments'>
+              <b:if cond='data:post.numberOfComments &gt; 0'>
+                <b:message name='messages.numberOfComments'>
+                  <b:param expr:value='data:post.numberOfComments' name='numComments'/>
+                </b:message>
+              <b:else/>
+                <data:messages.postAComment/>
+              </b:if>
+            </span>
+          </a>
+        </b:includable>
+                    <b:includable id='commentsTitle'>
+  <h3 class='title'><data:messages.comments/></h3>
+</b:includable>
+                    <b:includable id='defaultAdUnit'>
+          <b:comment>Clear out style (needs to be a non-empty string)</b:comment>
+          <b:with value='&quot;/* Done in css. */&quot;' var='style'>
+            <b:include name='super.defaultAdUnit'/>
+          </b:with>
+        </b:includable>
+                    <b:includable id='feedLinks'>
+          <b:comment>Don&#39;t show feed links.</b:comment>
+        </b:includable>
+                    <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:messages.subscribeTo/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+                    <b:includable id='headerByline'>
+          <b:include cond='data:view.isMultipleItems or data:widgets.Blog.first.headerByline.items.share' data='{ shareButtonClass: &quot;post-share-buttons-top&quot;, overridden: true }' name='maybeAddShareButtons'/>
+          <b:include name='super.headerByline'/>
+        </b:includable>
+                    <b:includable id='homePageLink'><b:comment>Don&#39;t show</b:comment></b:includable>
+                    <b:includable id='iframeComments' var='post'>
+  <b:if cond='data:post.allowIframeComments'>
+    <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
+    <div class='cmt_iframe_holder' expr:data-href='data:post.url.canonical' expr:data-viewtype='data:post.viewType'/>
+
+    <b:if cond='!data:post.embedCommentForm'>
+      <b:include data='post' name='commentsLink'/>
+    </b:if>
+  </b:if>
+</b:includable>
+                    <b:includable id='inlineAd' var='post'>
+          <div>
+            <b:class cond='data:post.adNumber + data:numDesktopAds lt data:maxNumAds' name='desktop-ad'/>
+            <b:class cond='data:post.adNumber + data:numMobileAds lt data:maxNumAds' name='mobile-ad'/>
+            <b:include data='post' name='super.inlineAd'/>
+          </div>
+        </b:includable>
+                    <b:includable id='nextPageLink'>
+          <a class='blog-pager-older-link flat-button ripple' expr:href='data:olderPageUrl' expr:title='data:messages.morePosts'>
+            <data:messages.morePosts/>
+          </a>
+        </b:includable>
+                    <b:includable id='post' var='post'>
+  <div class='post'>
+    <b:include data='post' name='postMeta'/>
+    <b:include data='post' name='postTitle'/>
+    <b:include name='headerByline'/>
+    <b:if cond='data:view.isSingleItem'>
+      <b:include data='post' name='postBody'/>
+    <b:else/>
+      <b:include data='post' name='postBodySnippet'/>
+      <b:include data='post' name='postJumpLink'/>
+    </b:if>
+    <b:include data='post' name='postFooter'/>
+  </div>
+</b:includable>
+                    <b:includable id='postBody' var='post'>
+  <!-- If metaDescription is empty, use the post body as the schema.org description too, for G+/FB snippeting. -->
+  <div class='post-body entry-content float-container' expr:id='&quot;post-body-&quot; + data:post.id'>
+    <div class='titlename'><h1><data:blog.pageName/></h1></div>
+    <data:post.body/>
+  </div>
+</b:includable>
+                    <b:includable id='postBodySnippet' var='post'>
+          <div class='container post-body entry-content' expr:id='&quot;post-snippet-&quot; + data:post.id'>
+
+            <b:if cond='data:post.featuredImage'>
+              <div class='snippet-thumbnail'>
+                <b:include data='{                                     image: data:post.featuredImage,                                     imageSizes: [32, 64, 128, 256],                                     imageRatio: &quot;1:1&quot;,                                     sourceSizes: &quot;(max-width: 800px) 20vw, 128px&quot;                                  }' name='responsiveImage'/>
+              </div>
+            </b:if>
+            <b:include cond='data:post' data='post' name='postSnippet'/>
+          </div>
+        </b:includable>
+                    <b:includable id='postCommentsAndAd' var='post'>
+  <article class='post-outer-container'>
+    <!-- Post title and body -->
+    <div class='post-outer'>
+      <b:include data='post' name='post'/>
+    </div>
+
+    <!-- Comments -->
+    <b:include cond='data:view.isSingleItem' data='post' name='commentPicker'/>
+
+    <!-- Show ad inside post container, after comments, if single item. -->
+    <b:include cond='data:view.isSingleItem and data:post.includeAd' data='post' name='inlineAd'/>
+  </article>
+
+  <!-- Show ad outside post container (between posts) for feed pages. -->
+  <b:include cond='data:view.isMultipleItems and data:post.includeAd' data='post' name='inlineAd'/>
+</b:includable>
+                    <b:includable id='postCommentsLink'>
+  <b:if cond='data:view.isMultipleItems'>
+    <span class='byline post-comment-link container'>
+      <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
+      <b:include cond='data:post.commentSource == 1' name='commentsLinkIframe'/>
+    </span>
+  </b:if>
+</b:includable>
+                    <b:includable id='postFooter' var='post'>
+          <div class='post-bottom'>
+            <div class='post-footer float-container'>
+              <b:include name='footerBylines'/>
+              <b:include cond='data:widget.type == &quot;Blog&quot;' data='post' name='postFooterAuthorProfile'/>
+            </div>
+            <b:if cond='data:view.isSingleItem'>
+                <b:include data='{ shareButtonClass: &quot;post-share-buttons-bottom invisible&quot;, overridden: true }' name='maybeAddShareButtons'/>
+            <b:else/>
+              <b:include data='post' name='postFooterJumpLink'/>
+            </b:if>
+          </div>
+        </b:includable>
+                    <b:includable id='postFooterAuthorProfile' var='post'>
+  <b:if cond='data:post.author.aboutMe and data:view.isPost'>
+    <div class='author-profile'>
+      <b:if cond='data:post.author.authorPhoto.url'>
+        <img class='author-image' expr:src='data:post.author.authorPhoto.url' width='50px'/>
+        <div class='author-about'>
+          <b:include data='post' name='aboutPostAuthor'/>
+        </div>
+      <b:else/>
+        <b:include data='post' name='aboutPostAuthor'/>
+      </b:if>
+    </div>
+  </b:if>
+</b:includable>
+                    <b:includable id='postFooterJumpLink'>
+          <b:comment>Ripple, and show &#39;keep reading&#39; as the default.</b:comment>
+          <div class='jump-link flat-button ripple'>
+            <a expr:href='data:post.hasJumpLink ? data:post.url fragment &quot;more&quot; : data:post.url' expr:title='data:post.title'>
+              <data:blog.jumpLinkMessage/>
+            </a>
+          </div>
+        </b:includable>
+                    <b:includable id='postHeader' var='post'>
+  <b:include name='headerByline'/>
+</b:includable>
+                    <b:includable id='postJumpLink'>
+          <b:comment>Overridden, and migrated to postFooter. Called as postFooterJumpLink.</b:comment>
+        </b:includable>
+                    <b:includable id='postLabels'>
+          <b:comment>We don&#39;t display labels on the home page.</b:comment>
+          <b:if cond='data:view.isSingleItem and data:widget.type == &quot;Blog&quot;'>
+            <b:include name='super.postLabels'/>
+          </b:if>
+        </b:includable>
+                    <b:includable id='postMeta' var='post'>
+  <b:include data='post' name='postMetadataJSON'/>
+</b:includable>
+                    <b:includable id='postPagination'>
+  <div class='blog-pager container' id='blog-pager'>
+    <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+    <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+    <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
+  </div>
+</b:includable>
+                    <b:includable id='postShareButtons' var='post'>
+          <b:comment>We call super.postShareButtons from the migrated positions.</b:comment>
+        </b:includable>
+                    <b:includable id='postTitle' var='post'>
+  
+  
+</b:includable>
+                    <b:includable id='previousPageLink'><b:comment>Don&#39;t show</b:comment></b:includable>
+                    <b:includable id='snippetedPostByline'>
+          <b:include name='headerByline'/>
+        </b:includable>
+                    <b:includable id='threadedCommentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+                    <b:includable id='threadedCommentJs' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+  <b:template-script inline='true' name='threaded_comments'/>
+  <script type='text/javascript'>
+    blogger.widgets.blog.initThreadedComments(
+        <data:post.commentJso/>,
+        <data:post.commentMsgs/>,
+        <data:post.commentConfig/>);
+  </script>
+</b:includable>
+                    <b:includable id='threadedComments' var='post'>
+  <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+
+    <b:include name='commentsTitle'/>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threadedCommentJs'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threadedCommentForm'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+  
+  </section>
+</b:includable>
+                  </b:widget>
+                </b:section>
+                </b:if>
+              </main>
+            </div>
+            
+      
+      
+      </b:with>
+    </div>
+
+
+
+
+<div class='modal fade' id='pop-1217'>
+    <div class='modal-dialog text-center'>
+        <div class='banner-content'>
+            <!-- <a data-dismiss="modal" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a> -->
+            <a href='https://www.slideshare.net/AdsotaAds/vietnam-mobile-app-advertising-monetization-report-q32017-83935060' target='_blank'>
+            <img alt='' class='modal-content' src='images/pop_1217_vi.jpg' style='max-width: 100%'/>
+        </a>
+        </div>
+    </div>
+</div>
+<div class='modal fade' id='pop-050917'>
+    <div class='modal-dialog text-center'>
+        <div class='banner-content'>
+            <!-- <a data-dismiss="modal" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a> -->
+            <a href='https://blog.adsota.com/adsota-tro-thanh-agency-quang-cao-chinh-thuc-cua-facebook-tai-viet-nam/' target='_blank'>
+            <img alt='' class='modal-content' src='images/pop_050917.png' style='max-width: 100%'/>
+        </a>
+        </div>
+    </div>
+</div>
+<div class='modal fade' id='pop-180917'>
+    <div class='modal-dialog text-center'>
+        <div class='banner-content'>
+            <!-- <a data-dismiss="modal" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a> -->
+            <a href='#' target='_blank'>
+            <img alt='' class='modal-content' src='images/pop_180917.jpg' style='max-width: 100%'/>
+        </a>
+        </div>
+    </div>
+</div>
+<div class='modal fade pop-banner' id='pop-230118'>
+    <div class='modal-dialog text-center'>
+        <div class='banner-content'>
+            <a aria-label='Close' class='close' data-dismiss='modal'><span aria-hidden='true'>&amp;times;</span></a>
+            <a href='https://www.facebook.com/adsota/posts/886415251522103' target='_blank'>
+            <img alt='' class='modal-content' src='images/pop_230118_vi.jpg' style='max-width: 100%'/>
+        </a>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class='modal fade' id='pop-20180320'>
+    <div class='modal-dialog text-center'>
+        <div class='banner-content'>
+             <a data-dismiss="modal" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a> 
+            <a href='https://www.slideshare.net/AdsotaAds/vietnam-mobile-app-advertising-monetization-report-2017-91368988' target='_blank'>
+            <img alt='' class='modal-content' src='https://i.imgur.com/aq47AN4.jpg' style='max-width: 100%'/>
+        </a>
+        </div>
+    </div>
+</div>
+-->
+<footer>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm-6'>
+                <div class='scrollpoint sp-effect1 copyright'>
+                    <div>Một sản phẩm của LinkThuThuat</div>
+                  <a href='/p/quy-dinh.html'>Điều khoản sử dụng.</a>
+                  <a href='/p/chinh-sach.html'>Chính sách kinh doanh</a>
+                </div>
+            </div>
+            <div class='col-sm-6'>
+                <div class='info-page'>
+                    <div class='social'>
+                        <span class='scrollpoint sp-effect1'>Theo dõi chúng tôi:</span>
+                        <a class='scrollpoint sp-effect2' href='https://twitter.com/' target='_blank'>
+                        <i class='fa fa-twitter '/>
+                    </a>
+                        <a class='scrollpoint sp-effect2' href='https://plus.google.com/' target='_blank'>
+                        <i class='fa fa-google-plus '/>
+                    </a>
+                        <a class='scrollpoint sp-effect2' href='https://www.facebook.com/' target='_blank'>
+                        <i class='fa fa-facebook '/>
+                    </a>
+                        <a class='scrollpoint sp-effect2' href='#' target='_blank'>
+                        <i class='fa fa-linkedin '/>
+                    </a>
+                    </div>
+                    <div class='lag scrollpoint sp-effect2'>
+                        <div class='dropdown'>
+                            <button aria-expanded='false' aria-haspopup='true' data-toggle='dropdown' id='dLabel' type='button'>
+                                <span>Tiếng Việt</span>
+                                <span class='caret'/>
+                            </button>
+                            <ul aria-labelledby='dLabel' class='dropdown-menu'>
+                                <li class='active' id='lang_vi'>
+                                    <a href='#vi'>Tiếng Việt</a>
+                                </li>
+                                <li id='lang_en'>
+                                    <a href='#en'>English</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src='https://adsota.com/landing/waypoints.min.js'/>
+<script src='https://code.jquery.com/jquery-1.12.0.min.js'/>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'/>
+<script src='https://adsota.com/landing/scripts.js?v=1.180320'/>
+
+
+
+    <aside class='sidebar-container container sidebar-invisible' role='complementary'>
+     
+      <div class='sidebar_top_wrapper'>
+        <b:class cond='data:widgets none w =&gt; w.sectionId == &quot;sidebar_top&quot;' name='no-items'/>
+
+       
+      </div>
+      <b:section class='sidebar_bottom' id='sidebar_bottom' name='Sidebar (Bottom)' preferred='yes'>
+        <b:widget id='ReportAbuse1' locked='true' title='' type='ReportAbuse' visible='false'>
+          <b:includable id='main'>
+  <b:include name='reportAbuse'/>
+</b:includable>
+        </b:widget>
+      </b:section>
+    </aside>
+
+
+<script type='text/javascript'>
+(function(d,s,id){var z=d.createElement(s);z.type=&quot;text/javascript&quot;;z.id=id;z.async=true;z.src=&quot;//static.zotabox.com/b/1/b174bc21696fba8eac410f3219770970/widgets.js&quot;;var sz=d.getElementsByTagName(s)[0];sz.parentNode.insertBefore(z,sz)}(document,&quot;script&quot;,&quot;zb-embed-code&quot;));
+</script>
+    <b:template-script async='true' name='indie' version='1.0.0'/>
+  </body>
+</html>
